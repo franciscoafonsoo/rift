@@ -101,7 +101,7 @@ If the automatic installation of the Rift Code Engine fails, follow the below in
   <!--   - `pip install --upgrade 'pyrift[all]'` -->
   <!--     - `[all]` is required to pull in direct dependencies needed for third-party agents like Aider, Smol Dev, and GPT Engineer. -->
   - using `pip` from GitHub:
-    - `pip install "git+https://github.com/morph-labs/rift.git@main#egg=pyrift&subdirectory=rift-engine"`
+    - `pipx install "git+https://github.com/franciscoafonsoo/rift.git@main#egg=pyrift&subdirectory=rift-engine"`
   - From source:
     - `cd ~/.morph/ && git clone git@github.com:morph-labs/rift && cd ./rift/rift-engine/ && pip install -e .`
       
